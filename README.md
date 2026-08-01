@@ -2,13 +2,15 @@
 
 > A hands-on SAP MM portfolio demonstrating procurement business processes using SAP S/4HANA Cloud Public Edition.
 
+---
+
 ## 📖 Project Overview
 
 Welcome to the **SAP MM Procurement Management System** repository.
 
 This repository documents my hands-on learning journey in **SAP Materials Management (SAP MM)** using **SAP S/4HANA Cloud Public Edition**.
 
-The project demonstrates the complete **Procure-to-Pay (P2P)** business process through SAP Fiori applications and will continue to expand with additional SAP MM modules.
+The project demonstrates the complete **Procure-to-Pay (P2P)** business process through SAP Fiori applications and SAP standard demo master data. It will continue to expand with additional SAP MM modules including Material Master, Business Partner (Supplier) Management, Inventory Management, and Purchasing Analytics.
 
 ---
 
@@ -35,32 +37,32 @@ The project demonstrates the complete **Procure-to-Pay (P2P)** business process 
 
 ## 🔄 Procure-to-Pay (P2P) Workflow
 
-The Procure-to-Pay process demonstrates a complete procurement lifecycle executed within SAP S/4HANA Cloud.
+The Procure-to-Pay (P2P) process demonstrates a complete procurement lifecycle executed within SAP S/4HANA Cloud Public Edition.
 
-1. **Manage Purchase Orders** — Access the purchasing dashboard.
-2. **Create Purchase Order** — Create a Purchase Order for the selected supplier and material.
-3. **Purchase Order Created** — Purchase Order successfully generated.
-4. **Post Goods Receipt** — Record receipt of goods against the Purchase Order.
-5. **Goods Receipt Posted** — Inventory updated after successful goods receipt.
-6. **Create Supplier Invoice** — Create supplier invoice referencing the Purchase Order.
-7. **Supplier Invoice Posted** — Supplier invoice successfully posted.
+1. **Manage Purchase Orders** – Access the purchasing dashboard.
+2. **Create Purchase Order** – Create a Purchase Order for the selected supplier and material.
+3. **Purchase Order Created** – Purchase Order successfully generated.
+4. **Post Goods Receipt** – Record receipt of goods against the Purchase Order.
+5. **Goods Receipt Posted** – Inventory updated after successful goods receipt.
+6. **Create Supplier Invoice** – Create a supplier invoice by referencing the Purchase Order.
+7. **Supplier Invoice Posted** – Supplier invoice successfully posted.
 
 ---
 
 ## 📄 Business Documents Created
 
-| Document | Number |
-|----------|---------|
-| Purchase Order | 4500067020 |
-| Goods Receipt | 5000067135 / 2026 |
-| Supplier Invoice | 5105665819 / 2026 |
+| Business Document | Number |
+|-------------------|---------|
+| Purchase Order | **4500067020** |
+| Goods Receipt | **5000067135 / 2026** |
+| Supplier Invoice | **5105665819 / 2026** |
 
 ---
 
 ## 📸 Process Screenshots
 
 | Step | Process | Screenshot |
-|:---:|---------|------------|
+|:---:|----------|------------|
 | 01 | Manage Purchase Orders | `screenshots/procure-to-pay/01_Manage_Purchase_Orders.png` |
 | 02 | Create Purchase Order | `screenshots/procure-to-pay/02_Create_Purchase_Order.png` |
 | 03 | Purchase Order Created | `screenshots/procure-to-pay/03_Purchase_Order_Created.png` |
@@ -73,26 +75,27 @@ The Procure-to-Pay process demonstrates a complete procurement lifecycle execute
 
 ## 🎯 Learning Outcomes
 
-Through this project I learned:
+Through this project, I gained practical experience in:
 
 - SAP MM Procure-to-Pay (P2P) process
 - Purchase Order Management
 - Goods Receipt Posting
 - Supplier Invoice Verification
-- SAP Fiori Navigation
+- SAP Fiori Application Navigation
 - Procurement Document Flow
+- Enterprise Procurement Lifecycle
 
 ---
 
 ## 🚀 Future Enhancements
 
-This repository will be expanded with:
+This repository will continue to grow with additional SAP MM topics:
 
-- Material Master
-- Business Partner Management
+- Material Master Management
+- Business Partner (Supplier) Management
 - Inventory Management
-- Purchasing Analytics
-- Reports & Documentation
+- Purchasing Analytics & Reporting
+- Additional SAP MM Business Scenarios
 
 ---
 
@@ -100,6 +103,6 @@ This repository will be expanded with:
 
 **Chirla Sai Eswar Reddy**
 
-B.Tech CSE Student
+B.Tech – Computer Science & Engineering
 
 Learning SAP MM using SAP S/4HANA Cloud Public Edition
