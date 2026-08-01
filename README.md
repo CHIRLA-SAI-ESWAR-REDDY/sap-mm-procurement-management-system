@@ -1,5 +1,7 @@
 \# SAP MM Procurement Management System using SAP S/4HANA Cloud Public Edition
 
+> A hands-on SAP MM portfolio demonstrating procurement business processes using SAP S/4HANA Cloud Public Edition.
+
 
 
 Welcome to the \*\*SAP MM Procurement Management System\*\* repository. This project showcases end-to-end procurement workflows, material management configurations, and enterprise business processes in SAP S/4HANA.
