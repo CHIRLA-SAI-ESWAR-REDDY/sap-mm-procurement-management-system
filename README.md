@@ -4,31 +4,30 @@
 
 ---
 
-# 📖 Project Overview
+## 📖 Project Overview
 
 Welcome to the **SAP MM Procurement Management System** repository.
 
-This repository documents my practical learning journey in **SAP Materials Management (SAP MM)** using **SAP S/4HANA Cloud Public Edition**.
+This repository documents my hands-on learning journey in **SAP Materials Management (SAP MM)** using **SAP S/4HANA Cloud Public Edition**.
 
-The project demonstrates multiple SAP MM business processes performed through SAP Fiori applications using SAP standard demo master data. The repository will continue to expand with additional SAP MM topics and real-world procurement scenarios.
+The project demonstrates the complete **Procure-to-Pay (P2P)** business process through SAP Fiori applications and SAP standard demo master data. It continues to expand with additional SAP MM modules including Material Master, Business Partner (Supplier) Management, Inventory Management, and Purchasing Analytics.
 
 ---
 
-# 🚀 Learning Roadmap
+## 🚀 Learning Roadmap
 
 - ✅ Procure-to-Pay (P2P)
-- ✅ Inventory Management
 - ✅ Material Master Management
-- ⏳ Business Partner (Supplier) Management
+- ✅ Business Partner (Supplier) Management
+- ⏳ Inventory Management
 - ⏳ Purchasing Analytics & Reporting
-- ⏳ Additional SAP MM Business Scenarios
 
 ---
 
-# 💻 SAP Environment
+## 💻 SAP Environment
 
 | Component | Details |
-|-----------|---------|
+|---|---|
 | SAP System | SAP S/4HANA Cloud Public Edition |
 | Module | SAP Materials Management (MM) |
 | Interface | SAP Fiori Launchpad |
@@ -36,129 +35,101 @@ The project demonstrates multiple SAP MM business processes performed through SA
 
 ---
 
-# 🔄 Procure-to-Pay (P2P) Workflow
+## 🔄 Procure-to-Pay (P2P) Workflow
 
-The Procure-to-Pay process demonstrates the complete procurement lifecycle executed in SAP S/4HANA Cloud Public Edition.
+The Procure-to-Pay (P2P) process demonstrates a complete procurement lifecycle executed within SAP S/4HANA Cloud Public Edition.
 
-1. Manage Purchase Orders
-2. Create Purchase Order
-3. Purchase Order Created
-4. Post Goods Receipt
-5. Goods Receipt Posted
-6. Create Supplier Invoice
-7. Supplier Invoice Posted
-
----
-
-# 📦 Inventory Management
-
-The Inventory Management module demonstrates inventory verification after procurement.
-
-Activities performed:
-
-- Checked Stock - Single Material
-- Verified stock by Plant and Storage Location
-- Reviewed Material Documents
-- Verified Goods Receipt postings
-- Observed inventory updates
+1. **Manage Purchase Orders** – Access the purchasing dashboard.
+2. **Create Purchase Order** – Create a Purchase Order for the selected supplier and material.
+3. **Purchase Order Created** – Purchase Order successfully generated.
+4. **Post Goods Receipt** – Record receipt of goods against the Purchase Order.
+5. **Goods Receipt Posted** – Inventory updated after successful goods receipt.
+6. **Create Supplier Invoice** – Create a supplier invoice by referencing the Purchase Order.
+7. **Supplier Invoice Posted** – Supplier invoice successfully posted.
 
 ---
 
-# 📂 Material Master
-
-The Material Master module demonstrates navigation and understanding of SAP Material Master data.
-
-Material Used:
-
-- Material: **MZ-FG-C900**
-- Description: **C900 BIKE**
-
-Views explored:
-
-- Basic Data 1
-- Basic Data 2
-- Sales: General/Plant
-
----
-
-# 📄 Business Documents Created
+## 📄 Business Documents Created
 
 | Business Document | Number |
-|-------------------|---------|
+|---|---|
 | Purchase Order | **4500067020** |
 | Goods Receipt | **5000067135 / 2026** |
 | Supplier Invoice | **5105665819 / 2026** |
 
 ---
 
-# 📸 Project Screenshots
+## 📚 Project Documentation
 
-## Procure-to-Pay
+The project includes SAP MM documentation covering important master data and procurement concepts.
 
-| Step | Screenshot |
-|------|------------|
-| 01 | `screenshots/procure-to-pay/01_Manage_Purchase_Orders.png` |
-| 02 | `screenshots/procure-to-pay/02_Create_Purchase_Order.png` |
-| 03 | `screenshots/procure-to-pay/03_Purchase_Order_Created.png` |
-| 04 | `screenshots/procure-to-pay/04_Post_Goods_Receipt.png` |
-| 05 | `screenshots/procure-to-pay/05_Goods_Receipt_Posted.png` |
-| 06 | `screenshots/procure-to-pay/06_Create_Supplier_Invoice.png` |
-| 07 | `screenshots/procure-to-pay/07_Supplier_Invoice_Posted.png` |
+```
+docs/
+│
+├── material-master.md
+├── inventory-management.md
+│
+└── master-data/
+    ├── organization-structure.md
+    └── vendor-master.md
+```
 
-## Inventory Management
+Topics documented:
 
-| Step | Screenshot |
-|------|------------|
-| 08 | `screenshots/inventory-management/08_Stock_Single_Material.png` |
-| 09 | `screenshots/inventory-management/09_Material_Documents_Overview.png` |
+- SAP MM Organization Structure
+- Vendor Master Data
+- Material Master Data
+- Inventory Management Concepts
 
-## Material Master
-
-| Step | Screenshot |
-|------|------------|
-| 10 | `screenshots/material-master/10_MaterialMaster_BasicData1_A.png` |
-| 11 | `screenshots/material-master/11_MaterialMaster_BasicData2_A.png` |
-| 12 | `screenshots/material-master/12_MaterialMaster_SalesGeneralPlant_A.png` |
+Sample data is designed around a college procurement scenario.
 
 ---
 
-# 🎯 Learning Outcomes
+## 📸 Process Screenshots
+
+| Step | Process | Screenshot |
+|:---:|---|---|
+| 01 | Manage Purchase Orders | `screenshots/procure-to-pay/01_Manage_Purchase_Orders.png` |
+| 02 | Create Purchase Order | `screenshots/procure-to-pay/02_Create_Purchase_Order.png` |
+| 03 | Purchase Order Created | `screenshots/procure-to-pay/03_Purchase_Order_Created.png` |
+| 04 | Post Goods Receipt | `screenshots/procure-to-pay/04_Post_Goods_Receipt.png` |
+| 05 | Goods Receipt Posted | `screenshots/procure-to-pay/05_Goods_Receipt_Posted.png` |
+| 06 | Create Supplier Invoice | `screenshots/procure-to-pay/06_Create_Supplier_Invoice.png` |
+| 07 | Supplier Invoice Posted | `screenshots/procure-to-pay/07_Supplier_Invoice_Posted.png` |
+
+---
+
+## 🎯 Learning Outcomes
 
 Through this project, I gained practical experience in:
 
-- SAP MM Procure-to-Pay (P2P)
-- Inventory Management
-- Material Master Navigation
-- Purchase Order Processing
+- SAP MM Procure-to-Pay (P2P) process
+- Purchase Order Management
 - Goods Receipt Posting
 - Supplier Invoice Verification
-- Material Document Analysis
-- Stock Verification
-- SAP Fiori Navigation
+- SAP Fiori Application Navigation
+- Procurement Document Flow
 - Enterprise Procurement Lifecycle
+- SAP MM Master Data Documentation
 
 ---
 
-# 🚀 Future Enhancements
+## 🚀 Future Enhancements
 
-The repository will continue to expand with:
+This repository will continue to grow with additional SAP MM topics:
 
-- Business Partner (Supplier) Management
-- Material Master Creation
-- Inventory Transactions
+- Advanced Material Master Scenarios
+- Business Partner (Supplier) Configuration
+- Inventory Management
 - Purchasing Analytics & Reporting
-- Source List
-- Quotation Process
-- Purchase Requisition
-- RFQ Process
 - Additional SAP MM Business Scenarios
 
 ---
 
-# 👨‍💻 Author
+## 👨‍💻 Author
 
 **Chirla Sai Eswar Reddy**
 
 B.Tech – Computer Science & Engineering
 
-Learning SAP Materials Management using SAP S/4HANA Cloud Public Edition.
+Learning SAP MM using SAP S/4HANA Cloud Public Edition
