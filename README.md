@@ -1,121 +1,152 @@
-# SAP MM Procurement Management System
+# SAP MM Procurement Management System using SAP S/4HANA Cloud Public Edition
 
-## Overview
-
-This project demonstrates the complete Procure-to-Pay (P2P) lifecycle in SAP S/4HANA Cloud Public Edition using SAP Materials Management (SAP MM).
-
-The repository documents hands-on SAP MM activities with real SAP screenshots, organized documentation, and Git version history.
+> A hands-on SAP MM portfolio demonstrating procurement business processes using SAP S/4HANA Cloud Public Edition.
 
 ---
 
-## Project Objectives
+# 📖 Project Overview
 
-- Understand the SAP MM Procure-to-Pay process
-- Explore SAP Master Data
-- Perform Inventory Management activities
-- Work with Purchase Requisitions
-- Document SAP MM business processes using real SAP screenshots
+Welcome to the **SAP MM Procurement Management System** repository.
+
+This repository documents my hands-on learning journey in **SAP Materials Management (SAP MM)** using **SAP S/4HANA Cloud Public Edition**.
+
+The project demonstrates practical SAP MM concepts through SAP Fiori applications available in the SAP Public Trial system. Each topic is documented with real SAP screenshots and supporting documentation to showcase practical procurement knowledge.
 
 ---
 
-## Modules Covered
+# 🚀 Learning Roadmap
 
-- ✅ Purchase Order Management
-- ✅ Goods Receipt
-- ✅ Supplier Invoice Processing
+- ✅ Procure-to-Pay (P2P)
 - ✅ Inventory Management
-- ✅ Material Master
-- ✅ Vendor Master
-- ✅ Purchase Order Display
-- ✅ Purchase Requisition Management
+- ✅ Material Master Management
+- ✅ Business Partner (Master Data) Exploration
+- ✅ Purchase Requisition Exploration
+- ✅ Purchase Contract & Purchase Order Exploration
+- ⏳ Purchasing Analytics & Reporting
+- ⏳ Source List Management
+- ⏳ Scheduling Agreements
+- ⏳ Purchase Info Records
 
 ---
 
-## Project Structure
+# 💻 SAP Environment
 
-```
+| Component | Details |
+|-----------|---------|
+| SAP System | SAP S/4HANA Cloud Public Edition |
+| Module | SAP Materials Management (MM) |
+| Interface | SAP Fiori Launchpad |
+| Environment | SAP Public Trial |
+
+---
+
+# 📚 Topics Completed
+
+## ✅ Procure-to-Pay (P2P)
+
+- Purchase Order Creation
+- Goods Receipt
+- Supplier Invoice
+- Document Flow
+
+---
+
+## ✅ Inventory Management
+
+- Stock Overview
+- Material Documents
+
+---
+
+## ✅ Material Master
+
+- Basic Data 1
+- Basic Data 2
+- Sales General / Plant Data
+
+---
+
+## ✅ Business Partner (Master Data)
+
+- Vendor Search
+- Vendor Selection
+- Purchase Order Lookup
+
+---
+
+## ✅ Purchase Requisition
+
+- Display Purchase Requisition
+- Search Help
+- Purchase Requisition List
+- Purchase Requisition Details
+
+---
+
+## ✅ Purchase Contract & Purchase Order Exploration
+
+- Display Purchase Contract
+- Purchase Contract Search Help
+- Agreement Search
+- Purchase Order List
+- Purchase Order Header
+- Purchase Order Items
+
+---
+
+# 📂 Repository Structure
+
+```text
 docs/
-├── master-data/
-│   ├── organization-structure.md
-│   └── vendor-master.md
 ├── inventory-management.md
 ├── material-master.md
-└── purchase-requisition.md
+├── purchase-requisition.md
+└── purchase-contract.md
 
 screenshots/
 ├── procure-to-pay/
-│   ├── 01_Manage_Purchase_Orders.png
-│   ├── 02_Create_Purchase_Order.png
-│   ├── 03_Purchase_Order_Created.png
-│   ├── 04_Post_Goods_Receipt.png
-│   ├── 05_Goods_Receipt_Posted.png
-│   ├── 06_Create_Supplier_Invoice.png
-│   └── 07_Supplier_Invoice_Posted.png
-│
 ├── inventory-management/
-│   ├── 08_Stock_Single_Material.png
-│   └── 09_Material_Documents_Overview.png
-│
 ├── material-master/
-│   ├── 10_MaterialMaster_BasicData1_A.png
-│   ├── 10_MaterialMaster_BasicData1_B.png
-│   ├── 11_MaterialMaster_BasicData2_A.png
-│   ├── 11_MaterialMaster_BasicData2_B.png
-│   ├── 12_MaterialMaster_SalesGeneralPlant_A.png
-│   └── 12_MaterialMaster_SalesGeneralPlant_B.png
-│
 ├── master-data/
-│   ├── 13_Vendor_Master_Find_Screen.png
-│   ├── 14_Vendor_Master_Search_Criteria.png
-│   ├── 15_Purchase_Order_List.png
-│   └── 16_Purchase_Order_Details.png
-│
-└── purchase-requisition/
-    ├── 17_Display_Purchase_Requisition_Advanced.png
-    ├── 18_Select_Purchase_Requisition.png
-    ├── 19_Purchase_Requisition_Search_Help.png
-    ├── 20_Purchase_Requisition_List.png
-    └── 21_Purchase_Requisition_Details.png
+├── purchase-requisition/
+└── purchase-contract/
 ```
 
 ---
 
-## SAP MM Learning Progress
+# 🎯 Learning Outcomes
 
-| Day | Module | Status |
-|------|--------|--------|
-| Day 1 | Purchase Order, Goods Receipt, Supplier Invoice | ✅ Completed |
-| Day 2 | Inventory Management | ✅ Completed |
-| Day 3 | Material Master | ✅ Completed |
-| Day 4 | Vendor Master & Purchase Order Display | ✅ Completed |
-| Day 5 | Purchase Requisition Management | ✅ Completed |
+Through this project, I gained practical experience in:
 
----
-
-## Technologies Used
-
-- SAP S/4HANA Cloud Public Edition
-- SAP Fiori Launchpad
-- SAP Materials Management (MM)
-- Git
-- GitHub
+- SAP MM Navigation
+- SAP Fiori Applications
+- Procurement Lifecycle
+- Purchase Orders
+- Goods Receipt Processing
+- Supplier Invoice Verification
+- Material Master Management
+- Inventory Management
+- Purchase Requisition Processing
+- Purchase Contract Navigation
+- Purchase Order Analysis
+- Enterprise Procurement Documents
 
 ---
 
-## Learning Outcomes
+# 🚀 Future Enhancements
 
-- Understood the SAP MM Procure-to-Pay lifecycle.
-- Explored Material and Vendor Master Data.
-- Performed Inventory Management activities.
-- Learned Purchase Requisition processing.
-- Documented SAP business processes with real SAP screenshots.
-- Managed project versions using Git and GitHub.
+- Purchasing Analytics & Reporting
+- Source List Management
+- Scheduling Agreements
+- Purchase Info Records
+- Additional SAP MM Business Scenarios
 
 ---
 
-## Repository Status
+# 👨‍💻 Author
 
-- 📄 Documentation completed through Day 5
-- 📸 21 SAP screenshots included
-- 📂 Organized project structure
-- ✅ Continuously updated with new SAP MM modules
+**Chirla Sai Eswar Reddy**
+
+B.Tech – Computer Science & Engineering
+
+Learning SAP Materials Management (SAP MM) using SAP S/4HANA Cloud Public Edition.
