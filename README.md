@@ -8,9 +8,9 @@
 
 Welcome to the **SAP MM Procurement Management System** repository.
 
-This repository documents my hands-on learning journey in **SAP Materials Management (SAP MM)** using **SAP S/4HANA Cloud Public Edition**.
+This repository documents my practical learning journey in **SAP Materials Management (SAP MM)** using **SAP S/4HANA Cloud Public Edition**.
 
-The project demonstrates practical SAP MM concepts through SAP Fiori applications available in the SAP Public Trial system. Each topic is documented with real SAP screenshots and supporting documentation to showcase practical procurement knowledge.
+The project demonstrates core SAP MM business processes through SAP Fiori applications available in the SAP Public Trial environment. Every topic is documented using real SAP screenshots, structured documentation, and Git version control to showcase practical SAP MM skills.
 
 ---
 
@@ -23,9 +23,10 @@ The project demonstrates practical SAP MM concepts through SAP Fiori application
 - ✅ Purchase Requisition Exploration
 - ✅ Purchase Contract & Purchase Order Exploration
 - ⏳ Purchasing Analytics & Reporting
+- ⏳ Purchase Info Records
 - ⏳ Source List Management
 - ⏳ Scheduling Agreements
-- ⏳ Purchase Info Records
+- ⏳ Additional SAP MM Business Scenarios
 
 ---
 
@@ -44,21 +45,22 @@ The project demonstrates practical SAP MM concepts through SAP Fiori application
 
 ## ✅ Procure-to-Pay (P2P)
 
-- Purchase Order Creation
-- Goods Receipt
-- Supplier Invoice
-- Document Flow
+- Manage Purchase Orders
+- Create Purchase Order
+- Post Goods Receipt
+- Create Supplier Invoice
+- Procurement Document Flow
 
 ---
 
 ## ✅ Inventory Management
 
 - Stock Overview
-- Material Documents
+- Material Documents Overview
 
 ---
 
-## ✅ Material Master
+## ✅ Material Master Management
 
 - Basic Data 1
 - Basic Data 2
@@ -71,13 +73,14 @@ The project demonstrates practical SAP MM concepts through SAP Fiori application
 - Vendor Search
 - Vendor Selection
 - Purchase Order Lookup
+- Purchase Order Details
 
 ---
 
-## ✅ Purchase Requisition
+## ✅ Purchase Requisition Exploration
 
 - Display Purchase Requisition
-- Search Help
+- Purchase Requisition Search
 - Purchase Requisition List
 - Purchase Requisition Details
 
@@ -87,10 +90,12 @@ The project demonstrates practical SAP MM concepts through SAP Fiori application
 
 - Display Purchase Contract
 - Purchase Contract Search Help
-- Agreement Search
+- Purchase Contract List
 - Purchase Order List
 - Purchase Order Header
 - Purchase Order Items
+
+> **Note:** The SAP S/4HANA Cloud Public Trial did not contain accessible Purchase Contract documents. The available search results referenced Purchase Orders instead of Purchase Contracts. This limitation has been documented as part of the learning process.
 
 ---
 
@@ -99,9 +104,10 @@ The project demonstrates practical SAP MM concepts through SAP Fiori application
 ```text
 docs/
 ├── inventory-management.md
+├── master-data.md
 ├── material-master.md
-├── purchase-requisition.md
-└── purchase-contract.md
+├── purchase-contract.md
+└── purchase-requisition.md
 
 screenshots/
 ├── procure-to-pay/
@@ -114,32 +120,52 @@ screenshots/
 
 ---
 
+# 📊 Project Progress
+
+Current repository includes:
+
+- 📄 5 SAP MM documentation files
+- 📸 27 SAP S/4HANA Cloud screenshots
+- 📂 6 SAP MM learning modules
+- ✅ Complete Procure-to-Pay (P2P) business process
+- ✅ Inventory Management
+- ✅ Material Master Management
+- ✅ Business Partner (Master Data) Exploration
+- ✅ Purchase Requisition Exploration
+- ✅ Purchase Contract & Purchase Order Exploration
+
+---
+
 # 🎯 Learning Outcomes
 
 Through this project, I gained practical experience in:
 
 - SAP MM Navigation
 - SAP Fiori Applications
-- Procurement Lifecycle
-- Purchase Orders
+- Enterprise Procurement Lifecycle
+- Purchase Order Processing
 - Goods Receipt Processing
 - Supplier Invoice Verification
-- Material Master Management
 - Inventory Management
+- Material Master Management
+- Business Partner (Vendor) Exploration
 - Purchase Requisition Processing
 - Purchase Contract Navigation
 - Purchase Order Analysis
-- Enterprise Procurement Documents
+- SAP Procurement Document Flow
 
 ---
 
 # 🚀 Future Enhancements
 
+The repository will continue expanding with additional SAP MM topics including:
+
 - Purchasing Analytics & Reporting
+- Purchase Info Records
 - Source List Management
 - Scheduling Agreements
-- Purchase Info Records
-- Additional SAP MM Business Scenarios
+- Enterprise Purchasing Scenarios
+- Additional SAP MM Business Processes
 
 ---
 
