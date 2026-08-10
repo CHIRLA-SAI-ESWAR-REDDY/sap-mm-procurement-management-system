@@ -1,52 +1,42 @@
-# SAP MM Procurement Management System
+# SAP MM Procurement Management System using SAP S/4HANA Cloud Public Edition
 
-## 📌 Project Overview
+## Project Overview
 
-A practical SAP Materials Management (MM) project built using SAP S/4HANA Cloud Public Edition and SAP Fiori applications.
+This project demonstrates an end-to-end **SAP Materials Management (MM) procurement and inventory management process** using **SAP S/4HANA Cloud Public Edition**.
 
-The project demonstrates procurement and inventory-related business processes through practical SAP activities, realistic business data, screenshots, and structured documentation.
+The project simulates procurement activities for a college/business procurement environment and documents the major SAP MM processes performed using the SAP S/4HANA Cloud trial environment.
 
-The main objective is to understand how SAP MM supports the complete procurement lifecycle from Purchase Requisition through Purchase Order, Goods Receipt, Inventory Management, and Supplier Invoice processing.
-
----
-
-## 🎯 Project Objectives
-
-- Understand SAP MM procurement processes
-- Work with SAP S/4HANA Cloud Public Edition
-- Navigate SAP Fiori applications
-- Create and monitor procurement documents
-- Understand Material Master and Supplier Master data
-- Work with Purchase Requisitions
-- Work with Purchase Orders and Purchase Contracts
-- Monitor purchasing activities
-- Process Goods Receipts
-- Understand inventory updates
-- Process Supplier Invoices & Financial Journal Entries
-- Document practical SAP MM activities
-- Maintain project evidence and documentation using GitHub
+The implementation focuses on understanding the complete procurement lifecycle, master data, purchasing documents, supplier invoice processing, and inventory stock analysis.
 
 ---
 
-## 🔄 Procurement Lifecycle
+## Objectives
 
-The project follows the major procurement flow:
+- Understand the SAP MM procurement lifecycle
+- Work with SAP S/4HANA Cloud Public Edition applications
+- Understand procurement master data
+- Create and analyze purchasing documents
+- Monitor Purchase Requisitions and Purchase Orders
+- Understand Purchase Contracts
+- Process Supplier Invoices
+- Analyze accounting follow-on documents
+- Monitor material stock and inventory movements
+- Maintain professional SAP MM project documentation
+- Build practical SAP MM experience for academic and resume purposes
+
+---
+
+# SAP MM Processes Implemented
+
+## 1. Procure-to-Pay (P2P) Cycle
+
+The complete basic procurement lifecycle was demonstrated:
 
 ```text
-Master Data Setup
+Purchase Order
       ↓
-Purchase Requisition
+Goods Receipt
       ↓
-Purchase Requisition Monitoring
+Supplier Invoice
       ↓
-Purchase Order / Purchase Contract
-      ↓
-Purchase Order Monitoring
-      ↓
-Goods Receipt & Stock Verification
-      ↓
-Inventory Management Update
-      ↓
-Supplier Invoice Processing
-      ↓
-Follow-On Journal Entry (Financial Settlement)
+Accounting Document
