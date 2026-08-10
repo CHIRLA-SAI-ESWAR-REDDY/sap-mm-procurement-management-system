@@ -22,6 +22,7 @@ The main objective is to understand how SAP MM supports the complete procurement
 - Monitor purchasing activities
 - Process Goods Receipts
 - Understand inventory updates
+- Process Supplier Invoices & Financial Journal Entries
 - Document practical SAP MM activities
 - Maintain project evidence and documentation using GitHub
 
@@ -32,18 +33,20 @@ The main objective is to understand how SAP MM supports the complete procurement
 The project follows the major procurement flow:
 
 ```text
-Master Data
-     ↓
+Master Data Setup
+      ↓
 Purchase Requisition
-     ↓
+      ↓
 Purchase Requisition Monitoring
-     ↓
+      ↓
 Purchase Order / Purchase Contract
-     ↓
+      ↓
 Purchase Order Monitoring
-     ↓
-Goods Receipt
-     ↓
-Inventory Update
-     ↓
-Supplier Invoice
+      ↓
+Goods Receipt & Stock Verification
+      ↓
+Inventory Management Update
+      ↓
+Supplier Invoice Processing
+      ↓
+Follow-On Journal Entry (Financial Settlement)
