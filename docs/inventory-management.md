@@ -1,8 +1,8 @@
-\# Inventory Management
+﻿# Inventory Management
 
 
 
-\## Overview
+## Overview
 
 
 
@@ -10,25 +10,25 @@ This document demonstrates the Inventory Management activities performed in SAP 
 
 
 
-\---
+---
 
 
 
-\## SAP Application Used
+## SAP Application Used
 
 
 
-\- Stock - Single Material
+- Stock - Single Material
 
-\- Material Documents Overview
-
-
-
-\---
+- Material Documents Overview
 
 
 
-\## Material Information
+---
+
+
+
+## Material Information
 
 
 
@@ -46,41 +46,41 @@ This document demonstrates the Inventory Management activities performed in SAP 
 
 
 
-\---
+---
 
 
 
-\## Activities Performed
+## Activities Performed
 
 
 
-\- Verified available stock using the Stock - Single Material application.
+- Verified available stock using the Stock - Single Material application.
 
-\- Viewed unrestricted-use stock for the selected material.
+- Viewed unrestricted-use stock for the selected material.
 
-\- Verified storage locations assigned to the material.
+- Verified storage locations assigned to the material.
 
-\- Opened Material Documents Overview.
+- Opened Material Documents Overview.
 
-\- Verified Goods Receipt (Movement Type 101).
+- Verified Goods Receipt (Movement Type 101).
 
-\- Observed inventory updates after the procurement process.
-
-
-
-\---
+- Observed inventory updates after the procurement process.
 
 
 
-\## Learning Outcomes
+---
 
 
 
-\- Understood Inventory Management in SAP MM.
+## Learning Outcomes
 
-\- Learned how inventory is stored by Plant and Storage Location.
 
-\- Verified Goods Receipt documents.
 
-\- Understood inventory tracking in SAP S/4HANA Cloud Public Edition.
+- Understood Inventory Management in SAP MM.
+
+- Learned how inventory is stored by Plant and Storage Location.
+
+- Verified Goods Receipt documents.
+
+- Understood inventory tracking in SAP S/4HANA Cloud Public Edition.
 

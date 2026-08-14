@@ -1,4 +1,4 @@
-﻿# SAP MM Procurement Management System – Project Architecture
+# SAP MM Procurement Management System – Project Architecture
 
 ## 1. Overview
 
@@ -10,24 +10,21 @@ The project connects SAP Materials Management (MM) procurement activities with i
 
 `	ext
 Business Requirement
-       ↓
+        ↓
 Purchase Requisition (PR)
-       ↓
+        ↓
 Purchase Order (PO)
-       ↓
+        ↓
 Goods Receipt (GR)
-       ↓
-┌───────────────────────┐
-│ Inventory Update      │
-│ Material Document     │
-└───────────────────────┘
-       ↓
+        ↓
+Inventory Update + Material Document
+        ↓
 Supplier Invoice
-       ↓
-Accounting / Journal Entry
-       ↓
+        ↓
+Accounting Follow-on Document
+        ↓
 Procurement Monitoring
-       ↓
+        ↓
 Purchasing Analytics
 `"
 "
@@ -60,25 +57,25 @@ SAP S/4HANA Cloud Public Edition
 "
 
 
-The project demonstrates document-level traceability across the procurement lifecycle.
+The project demonstrates traceability across major procurement documents.
 
 `	ext
 Purchase Requisition
-       ↓
+        ↓
 Purchase Order
-       ↓
+        ↓
 Goods Receipt
-       ├──→ Material Document
-       └──→ Inventory Update
-       ↓
+        ├──→ Material Document
+        └──→ Inventory Update
+        ↓
 Supplier Invoice
-       ↓
+        ↓
 Accounting Document
 `"
 "
 
 
-Supplier invoice processing demonstrates the integration between SAP MM and SAP Financial Accounting.
+Supplier invoice processing demonstrates the relationship between Materials Management and Financial Accounting.
 
 `	ext
 Supplier Invoice
@@ -106,13 +103,14 @@ These objects support purchase requisitions, purchase orders, contracts, goods r
 
 ## 7. Monitoring and Analytics
 
-The project also documents operational monitoring and purchasing analytics capabilities.
+The project documents operational monitoring and purchasing analysis capabilities for:
 
-- Purchase Requisition monitoring
-- Purchase Order monitoring
-- Inventory and material document analysis
-- Supplier invoice follow-on document analysis
-- Purchasing analytics and reporting
+- Purchase Requisitions
+- Purchase Orders
+- Inventory
+- Material Documents
+- Supplier Invoice follow-on information
+- Purchasing Analytics
 
 ## 8. Technology Stack
 
@@ -133,6 +131,6 @@ Supporting functional documentation is maintained under the docs/ directory.
 
 ## 10. Project Value
 
-The key objective is to demonstrate an integrated understanding of SAP MM rather than isolated transaction execution.
+The key objective is to demonstrate SAP MM as an integrated business process rather than a collection of isolated transaction screens.
 
 **Master Data → Procurement → Logistics → Inventory → Invoice Verification → Financial Accounting → Monitoring & Analytics**

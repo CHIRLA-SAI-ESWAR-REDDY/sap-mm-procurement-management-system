@@ -1,8 +1,8 @@
-\# Inventory Stock Management
+﻿# Inventory Stock Management
 
 
 
-\## Overview
+## Overview
 
 
 
@@ -14,7 +14,7 @@ The activities were performed for material \*\*MZ-FG-EB01 (E BIKE)\*\* at \*\*Pl
 
 
 
-\## 1. Manage Stock
+## 1. Manage Stock
 
 
 
@@ -22,41 +22,41 @@ The \*\*Manage Stock\*\* application was used to review the current inventory po
 
 
 
-\### Key Stock Information
+### Key Stock Information
 
 
 
-\- Material: MZ-FG-EB01 (E BIKE)
+- Material: MZ-FG-EB01 (E BIKE)
 
-\- Plant: Plant 1 US (1710)
+- Plant: Plant 1 US (1710)
 
-\- Total unrestricted-use stock: 138 PC
+- Total unrestricted-use stock: 138 PC
 
-\- Quality inspection stock: 20 PC
+- Quality inspection stock: 20 PC
 
-\- Standard Storage 1 (171A):
+- Standard Storage 1 (171A):
 
 &#x20; - 117 PC unrestricted
 
 &#x20; - 20 PC quality inspection
 
-\- Warehouse (175W):
+- Warehouse (175W):
 
 &#x20; - 20 PC unrestricted
 
-\- KANBAN (171E):
+- KANBAN (171E):
 
 &#x20; - 1 PC unrestricted
 
-\- Day Tank (171T):
+- Day Tank (171T):
 
 &#x20; - 0 PC
 
-\- Days of coverage: 0.04 days
+- Days of coverage: 0.04 days
 
 
 
-\### Screenshot
+### Screenshot
 
 
 
@@ -64,11 +64,11 @@ The \*\*Manage Stock\*\* application was used to review the current inventory po
 
 
 
-\---
+---
 
 
 
-\## 2. Material Documents Overview
+## 2. Material Documents Overview
 
 
 
@@ -80,19 +80,19 @@ The system displayed \*\*981 material documents\*\* for the material.
 
 
 
-\### Examples of Recorded Movements
+### Examples of Recorded Movements
 
 
 
-\- Movement Type 561 – Initial entry of stock balance
+- Movement Type 561 â€“ Initial entry of stock balance
 
-\- Movement Type 562 – Reversal of initial stock balance
+- Movement Type 562 â€“ Reversal of initial stock balance
 
-\- Movement Type 601 – Goods issue for delivery
+- Movement Type 601 â€“ Goods issue for delivery
 
-\- Movement Type 565 – Initial entry of blocked stock
+- Movement Type 565 â€“ Initial entry of blocked stock
 
-\- Movement Type 551 – Goods issue for scrapping
+- Movement Type 551 â€“ Goods issue for scrapping
 
 
 
@@ -100,7 +100,7 @@ The overview demonstrates that SAP maintains a detailed history of inventory mov
 
 
 
-\### Screenshot
+### Screenshot
 
 
 
@@ -108,11 +108,11 @@ The overview demonstrates that SAP maintains a detailed history of inventory mov
 
 
 
-\---
+---
 
 
 
-\## 3. Stock - Single Material
+## 3. Stock - Single Material
 
 
 
@@ -120,25 +120,25 @@ The \*\*Stock - Single Material\*\* reporting application was used to analyze th
 
 
 
-\### Stock Summary
+### Stock Summary
 
 
 
-\- Reporting date: 08/10/2026
+- Reporting date: 08/10/2026
 
-\- Unrestricted-use stock: 138 PC
+- Unrestricted-use stock: 138 PC
 
-\- Quality inspection stock: 20 PC
+- Quality inspection stock: 20 PC
 
-\- Blocked stock: 0 PC
+- Blocked stock: 0 PC
 
-\- Stock in transit: 0 PC
+- Stock in transit: 0 PC
 
-\- Returns stock: 0 PC
+- Returns stock: 0 PC
 
 
 
-\### Storage Location Distribution
+### Storage Location Distribution
 
 
 
@@ -158,7 +158,7 @@ The application provides a consolidated view of stock categories and storage-loc
 
 
 
-\### Screenshot
+### Screenshot
 
 
 
@@ -166,11 +166,11 @@ The application provides a consolidated view of stock categories and storage-loc
 
 
 
-\---
+---
 
 
 
-\## Inventory Management Summary
+## Inventory Management Summary
 
 
 
@@ -178,21 +178,21 @@ The inventory management activities demonstrate how SAP S/4HANA Cloud can be use
 
 
 
-\- Monitor current material stock
+- Monitor current material stock
 
-\- Analyze stock by storage location
+- Analyze stock by storage location
 
-\- Distinguish unrestricted and quality inspection stock
+- Distinguish unrestricted and quality inspection stock
 
-\- Review historical material movements
+- Review historical material movements
 
-\- Identify goods receipts, goods issues and other inventory movements
+- Identify goods receipts, goods issues and other inventory movements
 
-\- Analyze stock categories for an individual material
+- Analyze stock categories for an individual material
 
 
 
-\### Note
+### Note
 
 
 
@@ -200,7 +200,7 @@ Physical Inventory applications were not available in the SAP trial tenant used 
 
 
 
-\## Module Status
+## Module Status
 
 
 

@@ -1,8 +1,8 @@
-\# Supplier Invoice Processing
+﻿# Supplier Invoice Processing
 
 
 
-\## Overview
+## Overview
 
 
 
@@ -14,11 +14,11 @@ This activity demonstrates creating a supplier invoice with reference to a Purch
 
 
 
-\---
+---
 
 
 
-\## 1. Create Supplier Invoice (Initial Entry)
+## 1. Create Supplier Invoice (Initial Entry)
 
 
 
@@ -26,19 +26,19 @@ The \*\*Create Supplier Invoice\*\* application is used to record incoming invoi
 
 
 
-\### Key Invoice Fields
+### Key Invoice Fields
 
 
 
-\- \*\*Company Code:\*\* 1710
+- \*\*Company Code:\*\* 1710
 
-\- \*\*Gross Invoice Amount \& Currency:\*\* USD
+- \*\*Gross Invoice Amount \& Currency:\*\* USD
 
-\- \*\*Invoice Date \& Posting Date\*\*
+- \*\*Invoice Date \& Posting Date\*\*
 
-\- \*\*Reference Document:\*\* Purchase Order / Delivery Note
+- \*\*Reference Document:\*\* Purchase Order / Delivery Note
 
-\- \*\*Tax Details \& Payment Terms\*\*
+- \*\*Tax Details \& Payment Terms\*\*
 
 
 
@@ -48,11 +48,11 @@ The \*\*Create Supplier Invoice\*\* application is used to record incoming invoi
 
 
 
-\---
+---
 
 
 
-\## 2. Display Supplier Invoice Overview
+## 2. Display Supplier Invoice Overview
 
 
 
@@ -60,17 +60,17 @@ Once created, the supplier invoice document can be reviewed using the \*\*Displa
 
 
 
-\### Key Overview Information
+### Key Overview Information
 
 
 
-\- \*\*Supplier Invoice Number\*\*
+- \*\*Supplier Invoice Number\*\*
 
-\- \*\*Posting Status:\*\* Posted / Parked
+- \*\*Posting Status:\*\* Posted / Parked
 
-\- \*\*Invoicing Party / Supplier Details\*\*
+- \*\*Invoicing Party / Supplier Details\*\*
 
-\- \*\*Header Amount \& Balance Verification\*\*
+- \*\*Header Amount \& Balance Verification\*\*
 
 
 
@@ -80,29 +80,29 @@ Once created, the supplier invoice document can be reviewed using the \*\*Displa
 
 
 
-\---
+---
 
 
 
-\## 3. Supplier Invoice PO Reference \& Line Items
+## 3. Supplier Invoice PO Reference \& Line Items
 
 
 
-The invoice references the underlying Purchase Order to ensure 3-way matching (PO vs. Goods Receipt vs. Invoice).
+The invoice references the underlying Purchase Order to ensure the relationship between the Purchase Order, Goods Receipt, and Supplier Invoice used during invoice verification.
 
 
 
-\### Line Item Matching
+### Line Item Matching
 
 
 
-\- \*\*Purchase Order Reference Number\*\*
+- \*\*Purchase Order Reference Number\*\*
 
-\- \*\*PO Item Number \& Material Description\*\*
+- \*\*PO Item Number \& Material Description\*\*
 
-\- \*\*Invoiced Quantity \& Net Amount\*\*
+- \*\*Invoiced Quantity \& Net Amount\*\*
 
-\- \*\*Tax Code \& G/L Account Assignments\*\*
+- \*\*Tax Code \& G/L Account Assignments\*\*
 
 
 
@@ -112,19 +112,19 @@ The invoice references the underlying Purchase Order to ensure 3-way matching (P
 
 
 
-\---
+---
 
 
 
-\## 4. Invoice Follow-On Journal Entry
+## 4. Invoice Follow-On Journal Entry
 
 
 
-Posting a supplier invoice automatically generates a financial Accounting Document (Journal Entry) in SAP General Ledger.
+Posting a supplier invoice produces a related a financial Accounting Document (Journal Entry) in SAP General Ledger.
 
 
 
-\### A. General Information
+### A. General Information
 
 Displays document header details including Document Number, Fiscal Year, Ledger Group, Posting Date, and Company Code.  
 
@@ -132,7 +132,7 @@ Displays document header details including Document Number, Fiscal Year, Ledger 
 
 
 
-\### B. Line Items
+### B. Line Items
 
 Shows debit and credit postings, typically debiting the GR/IR Clearing Account and crediting the Supplier Account (Accounts Payable).  
 
@@ -140,7 +140,7 @@ Shows debit and credit postings, typically debiting the GR/IR Clearing Account a
 
 
 
-\### C. Totals and Taxes
+### C. Totals and Taxes
 
 Details total debit/credit balances, currency conversions, and tax amount breakdowns.  
 
@@ -148,7 +148,7 @@ Details total debit/credit balances, currency conversions, and tax amount breakd
 
 
 
-\### D. Related Documents
+### D. Related Documents
 
 Displays the document flow linking the Supplier Invoice to the Purchase Order, Material Document, and financial Journal Entry.  
 
@@ -156,11 +156,11 @@ Displays the document flow linking the Supplier Invoice to the Purchase Order, M
 
 
 
-\---
+---
 
 
 
-\## 5. Business Process Relevance
+## 5. Business Process Relevance
 
 
 
@@ -168,7 +168,7 @@ Supplier Invoice Processing ensures accurate financial accounting and procuremen
 
 
 
-1\. Performing 3-way matching between PO, GR, and Invoice.
+1\. Analyzing the relationship between the Purchase Order, Goods Receipt, and Supplier Invoice between PO, GR, and Invoice.
 
 2\. Eliminating payment discrepancies and over-billing.
 
@@ -178,33 +178,33 @@ Supplier Invoice Processing ensures accurate financial accounting and procuremen
 
 
 
-\---
+---
 
 
 
-\## 6. SAP MM / FI Concepts Demonstrated
+## 6. SAP MM / FI Concepts Demonstrated
 
 
 
-\- 3-Way Invoice Matching
+- 3-Way Invoice Matching
 
-\- Supplier Invoice Posting
+- Supplier Invoice Posting
 
-\- Purchase Order Reference
+- Purchase Order Reference
 
-\- Accounts Payable Integration (MM-FI)
+- Accounts Payable Integration (MM-FI)
 
-\- GR/IR Clearing Account Settlement
+- GR/IR Clearing Account Settlement
 
-\- Follow-On Journal Entry Inspection
-
-
-
-\---
+- Follow-On Journal Entry Inspection
 
 
 
-\## 7. Project Outcome
+---
+
+
+
+## 7. Project Outcome
 
 
 

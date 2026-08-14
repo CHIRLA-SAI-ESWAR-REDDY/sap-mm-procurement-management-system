@@ -1,8 +1,8 @@
-\# Purchasing Analytics and Reporting
+﻿# Purchasing Analytics and Reporting
 
 
 
-\## Overview
+## Overview
 
 
 
@@ -14,7 +14,7 @@ The objective was to evaluate available procurement reporting features for monit
 
 
 
-\## 1. Purchase Order Monitoring
+## 1. Purchase Order Monitoring
 
 
 
@@ -26,25 +26,25 @@ The application provides:
 
 
 
-\- Purchase order numbers and item details
+- Purchase order numbers and item details
 
-\- Material and supplier information
+- Material and supplier information
 
-\- Next scheduled delivery dates
+- Next scheduled delivery dates
 
-\- Order status
+- Order status
 
-\- Delivery status
+- Delivery status
 
-\- Invoice status
+- Invoice status
 
-\- Net order value
+- Net order value
 
-\- Value to be delivered
+- Value to be delivered
 
-\- Value to be invoiced
+- Value to be invoiced
 
-\- Material-group based analysis
+- Material-group based analysis
 
 
 
@@ -56,15 +56,15 @@ Existing project screenshots:
 
 
 
-\- `31\_Monitor\_Purchase\_Order\_Items\_Initial.png`
+- `31\_Monitor\_Purchase\_Order\_Items\_Initial.png`
 
-\- `31A\_Monitor\_Purchase\_Order\_Items\_Dashboard.png`
+- `31A\_Monitor\_Purchase\_Order\_Items\_Dashboard.png`
 
-\- `31B\_Monitor\_Purchase\_Order\_Items\_List.png`
+- `31B\_Monitor\_Purchase\_Order\_Items\_List.png`
 
 
 
-\## 2. Purchase Requisition Monitoring
+## 2. Purchase Requisition Monitoring
 
 
 
@@ -76,17 +76,17 @@ It provides reporting information related to:
 
 
 
-\- Purchase requisitions
+- Purchase requisitions
 
-\- Materials
+- Materials
 
-\- Suppliers
+- Suppliers
 
-\- Purchasing status
+- Purchasing status
 
-\- Delivery-related information
+- Delivery-related information
 
-\- Requisition item values
+- Requisition item values
 
 
 
@@ -94,15 +94,15 @@ Existing project screenshots:
 
 
 
-\- `29\_Monitor\_Purchase\_Requisition\_Items.png`
+- `29\_Monitor\_Purchase\_Requisition\_Items.png`
 
-\- `30A\_Monitor\_Purchase\_Requisition\_Items\_Dashboard.png`
+- `30A\_Monitor\_Purchase\_Requisition\_Items\_Dashboard.png`
 
-\- `30B\_Monitor\_Purchase\_Requisition\_Items\_List.png`
+- `30B\_Monitor\_Purchase\_Requisition\_Items\_List.png`
 
 
 
-\## 3. Inventory and Stock Reporting
+## 3. Inventory and Stock Reporting
 
 
 
@@ -110,11 +110,11 @@ Inventory reporting was also reviewed using SAP applications such as:
 
 
 
-\- Manage Stock
+- Manage Stock
 
-\- Stock - Single Material
+- Stock - Single Material
 
-\- Material Documents Overview
+- Material Documents Overview
 
 
 
@@ -122,17 +122,17 @@ These applications provide visibility into:
 
 
 
-\- Unrestricted stock
+- Unrestricted stock
 
-\- Quality inspection stock
+- Quality inspection stock
 
-\- Storage-location stock
+- Storage-location stock
 
-\- Material movements
+- Material movements
 
-\- Goods movements
+- Goods movements
 
-\- Historical material documents
+- Historical material documents
 
 
 
@@ -140,15 +140,15 @@ Existing project screenshots:
 
 
 
-\- `37\_Manage\_Stock\_E\_Bike.png`
+- `37\_Manage\_Stock\_E\_Bike.png`
 
-\- `38\_Material\_Documents\_Overview\_E\_Bike.png`
+- `38\_Material\_Documents\_Overview\_E\_Bike.png`
 
-\- `39\_Stock\_Single\_Material\_E\_Bike.png`
+- `39\_Stock\_Single\_Material\_E\_Bike.png`
 
 
 
-\## 4. Supplier Invoice and Accounting Reporting
+## 4. Supplier Invoice and Accounting Reporting
 
 
 
@@ -160,23 +160,23 @@ The project demonstrates:
 
 
 
-\- Supplier invoice document
+- Supplier invoice document
 
-\- Purchase order reference
+- Purchase order reference
 
-\- Invoice amount
+- Invoice amount
 
-\- Payment terms
+- Payment terms
 
-\- Tax information
+- Tax information
 
-\- Accounting journal entry
+- Accounting journal entry
 
-\- G/L accounts
+- G/L accounts
 
-\- Debit and credit totals
+- Debit and credit totals
 
-\- Related accounting documents
+- Related accounting documents
 
 
 
@@ -184,21 +184,21 @@ Existing screenshots:
 
 
 
-\- `34\_Display\_Supplier\_Invoice\_Overview.png`
+- `34\_Display\_Supplier\_Invoice\_Overview.png`
 
-\- `35\_Display\_Supplier\_Invoice\_PO\_Reference.png`
+- `35\_Display\_Supplier\_Invoice\_PO\_Reference.png`
 
-\- `36A\_Invoice\_Follow\_On\_Journal\_Entry\_General\_Information.png`
+- `36A\_Invoice\_Follow\_On\_Journal\_Entry\_General\_Information.png`
 
-\- `36B\_Invoice\_Follow\_On\_Journal\_Entry\_Line\_Items.png`
+- `36B\_Invoice\_Follow\_On\_Journal\_Entry\_Line\_Items.png`
 
-\- `36C\_Invoice\_Follow\_On\_Journal\_Entry\_Totals\_and\_Taxes.png`
+- `36C\_Invoice\_Follow\_On\_Journal\_Entry\_Totals\_and\_Taxes.png`
 
-\- `36D\_Invoice\_Follow\_On\_Journal\_Entry\_Related\_Documents.png`
+- `36D\_Invoice\_Follow\_On\_Journal\_Entry\_Related\_Documents.png`
 
 
 
-\## 5. Analytics Applications Checked
+## 5. Analytics Applications Checked
 
 
 
@@ -214,7 +214,7 @@ The application \*\*My Purchase Order Items - Due for Delivery\*\* was also revi
 
 
 
-\## 6. Trial Environment Limitation
+## 6. Trial Environment Limitation
 
 
 
@@ -230,27 +230,27 @@ The project already demonstrates meaningful purchasing analytics through:
 
 
 
-\- Purchase order monitoring
+- Purchase order monitoring
 
-\- Purchase requisition monitoring
+- Purchase requisition monitoring
 
-\- Material-group purchasing analysis
+- Material-group purchasing analysis
 
-\- Net order value
+- Net order value
 
-\- Value to be delivered
+- Value to be delivered
 
-\- Value to be invoiced
+- Value to be invoiced
 
-\- Inventory reporting
+- Inventory reporting
 
-\- Material document reporting
+- Material document reporting
 
-\- Supplier invoice and accounting reporting
+- Supplier invoice and accounting reporting
 
 
 
-\## 7. Conclusion
+## 7. Conclusion
 
 
 
